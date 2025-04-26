@@ -38,6 +38,8 @@ public class NumberGame {
         } while (choice == 'y' || choice == 'Y');
 
         System.out.println("Thanks for playing! Goodbye!");
+
+        in.close();
     }
 
 }
